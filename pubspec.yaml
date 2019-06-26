@@ -1,0 +1,23 @@
+name: layout
+description: >
+  Sample app from "Building Layouts", https://flutter.io/docs/development/ui/layout.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  firebase_core: ^0.4.0  # add dependency for Firebase Core
+#  cloud_firestore: ^0.12.5+2
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/lake.jpg
